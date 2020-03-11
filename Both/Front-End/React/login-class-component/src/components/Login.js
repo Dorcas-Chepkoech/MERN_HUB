@@ -39,8 +39,10 @@ class Login extends Component {
             email:'',
             password:''
         })
+        console.log(this.state);
     }
     render() {
+  
         return (
             <div style={{marginTop: 40}}>
                 
